@@ -1,0 +1,50 @@
+body {
+  margin: 50px auto;
+  max-width: 2048px;
+}
+
+header img {
+  width: 365px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links, .nav-links-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  margin-right: 45px;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  color: var(--grey);
+  font-size: var(--size-35);
+}
+
+.nav-link-button {
+  list-style: none;
+  font-size: 35px;
+}
+
+.buy-now {
+  background-color: #3F7DE0;
+  color: white;
+  display: flex;
+  width: 240px;
+  height: 110px;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 100px;
+}
