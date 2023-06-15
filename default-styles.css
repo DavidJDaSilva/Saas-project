@@ -1,5 +1,32 @@
 :root {
   --grey: #686868;
-
+  --blue: #3f7de0;
   --size-35: 2.188rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1440px;
+  }
 }
