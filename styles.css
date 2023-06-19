@@ -135,14 +135,20 @@ header p {
   font-size: 25px;
 }
 
-.icons {
+.icon-section {
+  position: relative;
   grid-column: 2;
   grid-row: 1;
   width: 500px;
   height: 300px;
 }
 
+.icon-container {
+  position:absolute
+}
+
 .google {
+  position: fixed;
   width: 60px;
   background-color: white;
   border: 1px transparent;
@@ -150,6 +156,11 @@ header p {
   border-radius: 100px;
 }
 
-.google-a {
-  width: 110px;
+.icon {
+  position: fixed;
+  width: 70px;
+  background-color: white;
+  border: 1px transparent;
+  padding: 17px;
+  border-radius: 100px;
 }
