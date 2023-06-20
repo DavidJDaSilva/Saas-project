@@ -1,13 +1,8 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 500;
   transition: ease-in-out 0.3s;
   background-color: #f5f5f5;
   background-image: linear-gradient(112deg, #f5f5f5 61%, #dde4ed 30%);
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 59%, 0 98%);
   padding-bottom: 115px;
 }
 
@@ -143,10 +138,6 @@ header p {
   height: 300px;
 }
 
-.icon-container {
-  position:absolute
-}
-
 .icon {
   position: absolute;
   width: 90px;
@@ -156,7 +147,7 @@ header p {
 }
 
 .google, .google-a {
-  position: fixed;
+  position: absolute;
   width: 60px;
   background-color: white;
   padding: 17px;
@@ -164,26 +155,36 @@ header p {
 }
 
 .google {
-  top: 200px;
-  right: 1400px;
+  top: -700px;
+  left: 1700px;
 }
 
 .atlassian {
-  top: -50px;
-  right: 100px;
+  top: -700px;
+  left: 1875px;
 }
 
 .asana {
-  top: -50px;
-  left: 600px;
+  top: -700px;
+  left: 2175px;
 }
 
 .paypal {
-  top: 200px;
-  left: 70px;
+  top: -450px;
+  left: 1675px;
 }
 
 .wave {
-  top: 200px;
-  right: -35px;
+  top: -450px;
+  left: 2015px;
+}
+
+.google-a {
+  top: -275px;
+  left: 1833px;
+}
+
+.calender {
+  top: -232px;
+  left: 2169px;
 }
