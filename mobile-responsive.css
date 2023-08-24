@@ -1,0 +1,1404 @@
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+  }
+
+  [aria-expanded="true"] ~ ul li a {
+    color: #666;
+  }
+
+  .container {
+    width: 360px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar::before {
+    background-image: linear-gradient(102deg, #f5f5f5 52%, #dde4ed 30%);
+    clip-path: polygon(0 0, 100% 0, 100% 36%, 0 48%);
+  }
+
+  .navbar {
+    height: 42.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .navbar-brand {
+    margin-top: 0.62rem;
+  }
+
+  .navbar-toggler {
+    margin-top: 0.62rem;
+  }
+
+  .nav-link {
+    margin: 0;
+  }
+
+  .nav-button .buy-now {
+    width: 3.25rem;
+    height: 0.94rem;
+    padding: 0.9375rem 1.5625rem;
+    gap: 1.25rem;
+    color: white;
+  }
+
+  .navbar header {
+    display: flex;
+    height: 14.6875rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .navbar header h1 {
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: 500;
+  }
+
+  .navbar header p {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.69rem;
+    margin-bottom: 1.88rem;
+    width: 20.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .play-button {
+    width: 5.44rem;
+    height: 1.13rem;
+    font-size: 0.72rem;
+    font-weight: 500;
+  }
+
+  .play-button span {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0;
+  }
+
+  .play-button span i {
+    margin-top: 6.712px;
+    margin-left: 2px;
+    height: 18px;
+  }
+
+  .icon-container {
+    height: 19.3125rem;
+    align-self: end;
+    width: 20.5rem;
+    position: relative;
+    right: 17.5rem;
+    margin-right: 0px;
+  }
+
+  .icon-section {
+    height: 19.3125rem;
+  }
+
+  .icon-section img {
+    left: 0;
+  }
+
+  .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .google {
+    left: 19.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .atlassian {
+    left: 21rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .asana {
+    left: 24rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .paypal {
+    left: 2rem;
+    top: 4rem;
+  }
+
+  .wave {
+    left: 6.3rem;
+    top: 4rem;
+  }
+
+  .google-a {
+    top: 10rem;
+    right: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .calender {
+    top: 11rem;
+    right: 0;
+  }
+
+  .key-benefits {
+    width: 20.5rem;
+  }
+
+  .key-benefits h2 {
+    font-size: 1.625rem;
+    margin-top: 0;
+    margin-bottom: 0.62rem;
+  }
+
+  .key-benefits p {
+    font-size: 1rem;
+    text-align: center;
+    align-self: baseline;
+    margin-bottom: 0;
+  }
+
+  .benefit-cards {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 20.5rem;
+    height: 71.1rem;
+    gap: 1.875rem;
+  }
+
+  .b-card {
+    height: 13.9rem;
+    padding: 1.25rem;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .b-card span {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .b-card span img {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 0;
+  }
+
+  .b-card h3 {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .b-card p {
+    font-size: 0.875rem;
+    margin: 0;
+    text-align: justify;
+  }
+
+  .b-card .learn-more {
+    font-size: 0.875rem;
+    margin: 0;
+  }
+
+  .software-for-people-section .container {
+    flex-direction: column;
+    gap: 0.625rem;
+    width: 20.5rem;
+  }
+
+  .sfp-header-button {
+    padding: 1.6875rem 1.875rem;
+    align-items: center;
+  }
+
+  .play-button span i {
+    margin-top: 0.482rem;
+    font-size: 0.7rem;
+  }
+
+  .sfp-header-button h2 {
+    font-size: 1.625rem;
+    text-align: center;
+    width: 16.75rem;
+    padding-top: 3rem;
+  }
+
+  .sfp-banner img {
+    width: 20.5rem;
+    height: 13.0625rem;
+    margin-left: 0;
+  }
+
+  .why-front-section {
+    display: flex;
+    flex-direction: column;
+    height: 26.8rem;
+  }
+
+  .why-front-section .container {
+    width: 22.5rem;
+  }
+
+  .why-front-section .container:nth-child(1) {
+    width: 22.5rem;
+    height: 8.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .why-front-section .container h2 {
+    font-size: 1.625rem;
+    margin-top: 0;
+    margin-bottom: 0.62rem;
+  }
+
+  .why-front-section p {
+    font-size: 1rem;
+    width: 20.5rem;
+    margin: 0;
+    padding: 0 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .connected-dots {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0625rem;
+    width: 3rem;
+    position: unset;
+    padding-left: 2.12rem;
+  }
+
+  .circle {
+    display: flex;
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dot {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: unset;
+  }
+
+  .connected-dots hr {
+    display: none;
+  }
+
+  .dot-descriptions {
+    flex-direction: column;
+    width: 13.625rem;
+    left: 7rem;
+    bottom: 20.8rem;
+    font-size: 1rem;
+    gap: 2.06rem;
+    text-align: left;
+  }
+
+  .dot-descriptions h3 {
+    width: 14rem;
+  }
+
+  .banner-two {
+    margin-top: 7rem;
+  }
+
+  .banner-two img {
+    margin-top: 3.75rem;
+    width: 22.375rem;
+    height: 9.625rem;
+  }
+
+  .banner-two button {
+    display: flex;
+    width: 4.375rem;
+    height: 4.375rem;
+    padding: 0.625rem 0rem 0.625rem 0.25rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 9rem;
+    bottom: 7rem;
+  }
+
+  .hubspot-photo {
+    display: flex;
+    width: 22.5rem;
+    height: 23.875rem;
+  }
+
+  .hubspot-photo .dots {
+    position: relative;
+    left: 7rem;
+    bottom: 1rem;
+    width: 8.8125rem;
+    height: 16.3125rem;
+  }
+
+  .hubspot-photo .women-three {
+    width: 16.375rem;
+    height: 18.75rem;
+  }
+
+  .hubspot-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22.5rem;
+  }
+
+  .hubspot-description img {
+    width: 6.25rem;
+    height: 2.074rem;
+    margin-bottom: 1.88rem;
+  }
+
+  .hubspot-description p:nth-child(2) {
+    text-align: center;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 2rem;
+    width: 20.5rem;
+    height: 10rem;
+    margin: 0;
+    margin-bottom: 3.12rem;
+  }
+
+  .hubspot-description p:nth-child(3) {
+    font-size: 1.125rem;
+    margin: 0;    
+    margin-bottom: 0.25rem;
+
+  }
+
+  .hubspot-description p:nth-child(4) {
+    font-size: 0.875rem;
+  }
+
+  .company-logos-section .container {
+    display: flex;
+    padding: 2.5rem 0rem 3.75rem 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-logos-section h3 {
+    font-size: 1.25rem;
+  }
+
+  .company-logos {
+    display: flex;
+    padding: 0rem 1.875rem;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .company-logos img {
+    width: 6rem;
+    height: 1.875rem;
+  }
+
+  .pricing-section {
+    margin-bottom: 3.75rem;
+  }
+
+  .pricing-section .container {
+    margin-top: 3.75rem;
+  }
+
+  .pricing-header {
+    gap: 0.625rem;
+  }
+
+  .pricing-container {
+    display: flex;
+    padding: 0rem 1rem;
+    flex-direction: column;
+    gap: 1.875rem;
+    width: 20.5rem;
+  }
+
+  .pricing-card {
+    width: 20.5rem;
+    height: 24.8rem
+  }
+
+  .pricing-description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-section, .container {
+    margin-top: 0;
+  }
+
+  .pricing-header {
+    gap: 0.625rem;
+  }
+
+  .pricing-header h2 {
+    font-size: 1.625rem;
+  }
+
+  .pricing-header p {
+    font-size: 1rem;
+  }
+
+  .pricing-container {
+    display: flex;
+    padding: 0rem 1rem;
+    flex-direction: column;
+    gap: 1.875rem;
+    width: 20.5rem;
+  }
+
+  .pricing-card {
+    width: 20.5rem;
+    height: 24.8rem;
+  }
+
+  .pricing-description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-card {
+    align-items: center;
+  }
+
+  .price-per-month {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.4375rem;
+    margin: 0;
+  }
+
+  .fifty-nine {
+    font-size: 3.125rem;
+  }
+
+  .mo {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .pricing-card hr {
+    width: 15.5rem;
+    margin-top: 1.88rem;
+    margin-bottom: 1.88rem;
+  }
+
+  .pricing-card p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 15.5rem;
+    margin: 0;
+  }
+
+  .play-and-learn {
+    justify-content: center;
+    align-content: center;
+    gap: 0.625rem;
+  }
+
+  .pricing-card .play-button {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .pricing-card p:nth-child(2) {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .pricing-description img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .pricing-description h3 {
+    display: flex;
+    font-size: 1.125rem;
+  }
+
+  .pricing-description p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+  }
+
+  .sketch {
+    padding: 0.25rem 0.625rem;
+    width: 2.5rem;
+    height: 0.94rem;
+    font-size: 0.75rem;
+  }
+
+  .hire-us-section {
+    height: 104rem;
+  }
+
+  .hire-us-section .container {
+    height: 104.5rem;
+  }
+
+  .hire-us-container {
+    width: 22.625rem;
+    flex-direction: column;
+  }
+
+  .left-side {
+    padding: 2.5rem 1rem 1.25rem 1rem;
+  }
+
+  .hire-us-top {
+    width: 20.6rem;
+    padding: 2.5rem 1rem 1.25rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hire-us-top hr {
+    width: 20.6rem;
+  }
+
+  .quote {
+    text-align: center;
+  }
+
+  .hire-us-bottom {
+    align-items: center;
+    align-self: stretch;
+  }
+
+  .hire-us-bottom h3 {
+    margin-top: 0;
+  }
+
+  .hire-us-bottom p {
+    margin-bottom: 1.88rem;
+  }
+
+  .right-side {
+    padding: 1.875rem 1rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    width: 20.6rem;
+  }
+
+  .right-side form {
+    padding: 0;
+    gap: 0.625rem;
+    width: 20.6rem;
+    height: 64rem;
+  }
+
+  .right-side form form-data {
+    padding: 1.875rem;
+    gap: 2.3125rem;
+    width: 16.9rem;
+  }
+
+  .right-side form h3 {
+    font-size: 1rem;
+    width: 16.875rem;
+  }
+
+  .right-side form-group {
+    flex-direction: column;
+    align-self: stretch;
+    width: 17.5rem;
+  }
+
+  .right-side form input {
+    width: 15.6rem;
+  }
+
+  .right-side select {
+    width: 17rem;
+  }
+
+  .right-side textarea {
+    width: 15.6rem;
+  }
+
+  .right-side .checkbox {
+    flex-direction: row;
+    width: 16.9rem;
+    margin-left: 0.7rem;
+  }
+
+  .privacy-policy-1 {
+    width: 8.25rem;
+  }
+
+  .privacy-policy-2 {
+    display: none;
+  }
+
+  .get-started-button {
+    margin-top: 0;
+  }
+
+  footer {
+    padding: 5rem 1rem 2.5rem 1rem;
+    width: 20.5rem;
+    margin: auto;
+  }
+
+  .footer-company-info {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    align-self: stretch;
+  }
+
+  .footer-front-info {
+    align-items: center;
+    align-self: stretch;
+    width: 20.5rem;
+    margin: 0;
+  }
+
+  .company-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+  }
+
+  .footer-company, .company-links {
+    align-items: center;
+  }
+
+  .footer-hr {
+    width: 20.5rem ;
+  }
+
+  .copyright-links {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .copyright .privacy-policy {
+    margin: 0;
+  }
+
+  .socials {
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  .social-link-dropdown {
+    display: flex;
+    align-self: center;
+  }
+
+  .all-rights-reserved p {
+    line-height: 1.375rem; /* 157.143% */
+  }
+}
+
+@media screen and (width: 414px) {
+    .icon-container {
+      right: 18.5rem;
+    }
+}
+
+@media screen and (width: 688px) {
+  .icon-container {
+    right: 24.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    [aria-controls="navbarDropdown"] {
+      display: block;
+    }
+
+    [aria-expanded="false"] ~ ul {
+      display: none;
+    }
+  
+    [aria-expanded="true"] ~ ul {
+      display: flex;
+      gap: 2rem;
+      position: relative;
+      width: 100%;
+      text-align: right;
+      padding-left: 0;
+    }
+  
+    [aria-expanded="true"] ~ ul li a {
+      color: #666;
+    }
+
+    .nav-button .buy-now {
+      width: 3.25rem;
+      height: 0.94rem;
+      padding: 0.9375rem 1.5625rem;
+      gap: 1.25rem;
+      color: white;
+    }
+
+    .container {
+      width: auto;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .logo {
+      width: 9.68125rem;
+      height: 2.88125rem;
+      margin-top: 2rem;
+    }
+
+    .navbar {
+        height: 46.875rem;
+    }
+
+    .navbar-container {
+      display: flex;
+      height: 5.375rem;
+      padding: 0.625rem 1.875rem;
+      justify-content: space-between;
+      align-items: center;
+      align-self: stretch;
+    }
+
+    .navbar-toggler span {
+      display: flex;
+      padding: 0.375rem 0.875rem;
+      align-items: center;
+      gap: 1.875rem;
+      margin-top: 1.5rem;
+    }
+
+    .navbar header {
+      display: flex;
+      height: 19.0625rem;
+      padding-bottom: 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.875rem;
+      align-self: stretch;
+    }
+
+    .navbar header h1 {
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-top: -7rem;
+    }
+
+    .navbar header p {
+      color: #677788;
+      text-align: center;
+      font-family: Inter;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      width: auto;
+      margin-top: -1rem;
+    }
+
+    .play-button {
+      width: 8rem;
+      height: 3rem;
+    }
+
+    .play-button span {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    .play-button span i {
+      height: .75rem;
+      font-size: .6rem;
+    }
+
+    .play-text {
+      font-size: .75rem;
+    }
+
+    .learn-more {
+      font-size: .875rem;
+    }
+
+    .icon-container {
+      height: 19.3125rem;
+      align-self: stretch;
+      margin-top: 5rem;
+    }
+
+    .key-benefits {
+      margin-top: 20rem;
+    }
+
+    .benefit-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.875rem;
+      padding: 1.25rem;
+      margin: 3.75rem 0 3.75rem 0;
+    }
+
+    .b-card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.25rem;
+      align-self: stretch;
+      width: 18.7rem;
+      height: 13.9rem;
+      padding: 1.25rem;
+    }
+
+    .b-card span img {
+      width: 3.13rem;
+      margin: 0;
+    }
+
+    .benefit-cards h3 {
+      color: #000;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin: 0;
+    }
+
+    .benefit-cards p {
+      color: #677788;
+      font-family: Inter;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.5rem;
+      margin: 0;
+    }
+
+    .learn-more {
+      color: #2476FF;
+      font-family: Inter;
+      font-size: 0.875rem;
+      margin: 0;
+    }
+
+    .software-for-people-section .container {
+      flex-direction: column;
+      padding-top: 12rem;
+    }
+
+    .sfp-header-button h2 {
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 1.625rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      width: auto;
+      height: auto;
+    }
+
+    .sfp-header-button a {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .sfp-banner {
+      display: contents;
+    }
+
+    .sfp-banner img {
+      width: 44.25rem;
+      height: 22.0625rem;
+      align-self: center;
+    }
+
+    .why-front-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.5rem;
+      width: 47rem;
+      margin: auto;
+      margin-top: 5rem;
+    }
+
+    .why-front-section .container {
+      width: 37.5rem;
+    }
+
+    .why-front-section h2 {
+      font-size: 1.625rem;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .why-front-section p {
+      font-size: 1rem;
+      margin-top: .62rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .why-front-section .container .connected-dots {
+      width: 38rem;
+      right: -0.6rem;
+      gap: 4rem;
+      justify-content: normal;
+    }
+
+    .circle {
+      width: 3.125rem;
+      height: 3.125rem;
+    }
+
+    .dot {
+      left: 1.4rem;
+      top: 1.4rem;
+      width: 0.375rem;
+      height: 0.375rem;
+      border-radius: 0.1875rem;
+    }
+
+    .connected-dots hr {
+      height: 7.5rem;
+    }
+
+    .dot-descriptions {
+      justify-content: unset;
+      gap: 3rem;
+      width: 41rem;
+      right: 1rem;
+    }
+
+    .dot-descriptions h3 {
+      font-size: 1rem;
+      font-family: Inter;
+    }
+
+    .banner-two {
+      margin-top: 5rem;
+    }
+    
+    .banner-two .container {
+      display: flex;
+      height: 22.75rem;
+      padding: 0rem 1.875rem 5rem 1.875rem;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .banner-two img {
+      width: 44.25rem;
+      height: 19rem;
+    }
+
+    .banner-two button {
+      display: flex;
+      width: 4.375rem;
+      height: 4.375rem;
+      padding: 0.625rem 0rem 0.625rem 0.25rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.625rem;
+      border-radius: 2.1875rem;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+      margin: auto;
+      left: -1rem;
+      bottom: 11rem;
+    }
+
+    .hubspot {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+    }
+
+    .hubspot-photo {
+      width: 28.25rem;
+      height: 35rem;
+    }
+
+    .hubspot-photo .dots {
+      width: 12.5rem;
+      height: 23.07994rem;
+      margin-left: -0.9rem;
+      margin-top: 6.9rem;
+    }
+
+    .hubspot-photo .women-three {
+      width: 23.1875rem;
+      height: 26.5625rem;
+      justify-self: center;
+    }
+
+    .hubspot-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      width: 48rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .hubspot-description img {
+      width: 6.25rem;
+      height: 2.074rem;
+    }
+
+    .hubspot-description p:nth-child(2) {
+      text-align: center;
+      font-family: Inter;
+      font-size: 1.375rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2rem;
+      width: 37.5rem;
+    }
+
+    .hubspot-description p:nth-child(3) {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 0;
+    }
+
+    .hubspot-description p:nth-child(3) {
+      color: #677788;
+      font-family: Inter;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 0;
+    }
+
+    .company-logos-section .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.8125rem;
+    }
+
+    .company-logos-section h3 {
+      font-family: Inter;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 2.81rem;
+    }
+
+    .company-logos {
+      display: flex;
+      height: 3.6875rem;
+      align-items: flex-start;
+      gap: 6.25rem;
+    }
+
+    .company-logos img {
+      width: 3.85rem;
+      height: 1.69rem;
+    }
+
+    .pricing-section {
+      margin-top: 6.25rem;
+      margin-bottom: 3.75rem;
+    }
+
+    .pricing-section .container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3.75rem;
+    }
+
+    .pricing-header {
+      display: flex;
+      gap: 0.625rem;
+      align-self: stretch;
+      height: 3.75rem;
+    }
+
+    .pricing-header h2 {
+      font-family: Inter;
+      font-size: 1.625rem;
+    }
+
+    .pricing-header p {
+      color: #677788;
+      font-family: Inter;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .pricing-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3.125rem;
+    }
+
+    .pricing-card {
+      align-items: center;
+      width: 37.5rem;
+      height: 18.3rem;
+      padding: 2.5rem;
+    }
+
+    .price-per-month {
+      margin: 0;
+    }
+
+    .price-per-month .fifty-nine {
+      font-family: Inter;
+      font-size: 3.125rem;
+    }
+
+    .pricing-card hr {
+      width: 37.5rem;
+    }
+
+    .pricing-card p {
+      color: #677788;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      line-height: 1.5rem;
+      width: 37.5rem;
+    }
+
+    .play-and-learn {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 0.625rem;
+      text-align: center;
+    }
+
+    .play-and-learn .play-button {
+      padding: 0.9375rem 1.5625rem;
+      margin: 0;
+    }
+
+    .pricing-card p:nth-child(2) {
+      color: #677788;
+      font-family: Inter;
+      font-size: 0.75rem;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .pricing-description {
+      gap: 0.625rem;
+      margin-top: 1.88rem;
+    }
+
+    .pricing-description img {
+      width: 3.125rem;
+      height: 3.125rem;
+    }
+
+    .pricing-description h3 {
+      color: #000;
+      font-family: Inter;
+      font-size: 1.125rem;
+    }
+
+    .pricing-description .sketch {
+      padding: 0.25rem 0.625rem;
+      font-size: .75rem;
+    }
+
+    .pricing-description p {
+      color: #677788;
+      font-family: Inter;
+      font-size: 0.875rem;
+      font-weight: 500;
+      line-height: 1.375rem;
+    }
+
+    .hire-us-section {
+      width: 47rem;
+      height: 73rem;
+      margin-bottom: 0;
+      margin: auto;
+    }
+
+    .hire-us-section, .hire-us-section .container {
+      width: 47rem;
+      height: 70rem;
+    }
+
+    .hire-us-container {
+      flex-direction: column;
+      width: 47rem;
+      height: 69rem;
+    }
+
+    .left-side {
+      width: 43.3rem;
+      padding: 2.5rem 1.875rem 1.25rem 1.875rem;
+      align-items: center;
+      gap: 3.75rem;
+      flex-direction: row;
+    }
+
+    .hire-us-top {
+      padding-top: 0;
+    }
+
+    .hire-us-top p {
+      width: 24.7rem;
+    }
+
+    .hire-us-top hr {
+      margin: 2rem 0 2rem 0;
+      width: 24rem;
+    }
+
+    .hire-us-bottom {
+      width: 15.9rem;
+    }
+
+    .right-side {
+      align-self: center;
+    }
+
+    .right-side form {
+      width: 40.5rem;
+      height: 42rem;
+    }
+
+    .right-side form form-data {
+      width: 40.5rem;
+      height: 42rem;
+    }
+
+    .right-side form form-data textarea {
+      padding: 0.62rem 10rem 10rem 0.62rem;
+      width: 29.8rem;
+    }
+
+    .right-side form form-data form-group {
+      width: 40.5rem;
+      justify-content: center;
+    }
+
+    .right-side .checkbox {
+      width: 40.5rem;
+    }
+
+    .right-side form form-data form-group input {
+      width: 18.5rem;
+    }
+
+    .privacy-policy {
+      margin-left: -18.5rem;
+    }
+
+    .get-started-button {
+      margin-top: 0.31rem;
+    }
+
+    .footer-company-info {
+      width: 44.3rem;
+      height: 23.8rem;
+    }
+
+    .company-info {
+      display: grid;
+    }
+
+    .footer-company {
+      width: 6.88rem;
+      height: 10.4rem;
+    }
+
+    .footer-company:nth-child(1), .footer-company:nth-child(2) {
+      grid-row: 1;
+    }
+
+    .footer-hr {
+      width: 44.3rem;
+    }
+
+    .copyright-links {
+      align-self: center;
+      width: 44.3rem;
+    }
+
+    .privacy-policy {
+      margin-left: 0;
+    }
+  }
+
+@media screen and (min-width: 1025px) {
+
+    .container {
+      max-width: 1025px;
+    }
+  }
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
